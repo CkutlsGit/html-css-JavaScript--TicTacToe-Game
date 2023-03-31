@@ -1,0 +1,45 @@
+/* Game Status text */
+.textgame {
+    position: absolute;
+    left: 600px;
+    top: 300px;
+
+    font-size: 100px;
+}
+
+
+/* Variable */
+.loose {
+    color: red;
+}
+
+.win {
+    color: green;
+}
+
+.draw {
+    color: grey;
+}
+
+/* Game Board */
+
+.game-board {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 300px; 
+    margin-left: 700px;
+  }
+  
+  .cell {
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
